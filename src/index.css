@@ -15,34 +15,6 @@ body {
   background: linear-gradient(to right, #e7e5e4, #d6d3d1, #e7e5e4);
   color: #0f172a;
   min-height: 100vh;
-  transition: 0.3s;
-}
-
-/* DARK MODE */
-body.dark {
-  background: #0f172a;
-  color: white;
-}
-
-/* Sections */
-body.dark section {
-  background: transparent;
-}
-
-/* Cards (glass effect stays) */
-body.dark .contact-card,
-body.dark .project-card,
-body.dark .publication-card {
-  background: rgba(255, 255, 255, 0.08);
-  color: white;
-}
-
-/* Navbar */
-body.dark .navbar {
-  background: rgba(15, 23, 42, 0.9);
-}
-
-/* Links */
-body.dark a {
-  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

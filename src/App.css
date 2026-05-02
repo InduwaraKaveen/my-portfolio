@@ -83,6 +83,25 @@ nav ul li a:hover {
   }
 
   nav ul {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #0f172a;
+    width: 200px;
+
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 20px;
     display: none;
+    transition: all 0.3s ease;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
   }
 }

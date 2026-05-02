@@ -79,6 +79,7 @@ nav ul li a:hover {
 @media (max-width: 768px) {
   nav {
     padding: 15px 20px;
+    z-index: 9999;
   }
 
   nav ul {

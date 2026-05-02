@@ -66,3 +66,51 @@
   object-fit: cover;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
+
+@media (max-width: 768px) {
+
+  .hero {
+    padding: 40px 5%;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    gap: 25px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-text h3 {
+    font-size: 18px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .hero-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 160px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 15px;
+  }
+}

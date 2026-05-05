@@ -18,8 +18,8 @@ function Projects() {
             </p>
 
             <div className="project-links">
-              <a href="#">Live Demo</a>
-              <a href="#">GitHub</a>
+              <a href="https://induwarakaveen.github.io/my-portfolio/">Live Demo</a>
+              <a href="https://github.com/InduwaraKaveen/my-portfolio.git">GitHub</a>
             </div>
           </div>
 
@@ -33,7 +33,9 @@ function Projects() {
             </p>
 
             <div className="project-links">
-              <a href="#">Details</a>
+              <a href="https://govibiz.xo.je/">Live Demo</a>
+              <a href="https://github.com/Dulan-Vishwajith/GoviBiz.git">GitHub</a>
+
             </div>
           </div>
 
